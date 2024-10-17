@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the CSV file
-data = pd.read_csv('C:/Users/sainia/Desktop/Shiny_App/carrying_capacity_scenarios.csv')
+data = pd.read_csv('carrying_capacity_scenarios.csv')
 
 # Title and description
 st.title("Habitat-Based Carrying Capacity Calculator")
